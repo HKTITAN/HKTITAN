@@ -63,7 +63,7 @@ Always exploring, building, and learning — I thrive on turning ideas into tool
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/HKTITAN/HKTITAN/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="GitHub Contribution Snake" />
+  <img src="https://github.com/HKTITAN/HKTITAN/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="GitHub Contribution Snake" />
 </p>
 
 ---
