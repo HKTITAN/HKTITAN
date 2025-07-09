@@ -38,34 +38,4 @@ Always exploring, building, and learning — I thrive on turning ideas into tool
   </a>
 </p>
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HKTITAN&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HKTITAN&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HKTITAN&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HKTITAN&theme=tokyonight&margin-w=10&margin-h=10&row=1" alt="GitHub Trophies" />
-</p>
-
----
-
-### 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://github.com/HKTITAN/HKTITAN/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="GitHub Contribution Snake" />
-</p>
-
----
-
 <p align="center"><b>🚀 Let’s collaborate and build something amazing.</b></p>
