@@ -1,4 +1,4 @@
-# Hi, I'm Harshit 👋
+# Hi, I'm Harshit Khemani 👋
 
 📍 New Delhi, India  
 🛠️ Building products that matter — at [khe.money](https://www.khe.money)
@@ -52,8 +52,8 @@ Product Design · AI/ML Workflows · Community Building · Go-to-Market · Found
 
 ## 📈 GitHub
 
-![Harshit's GitHub stats](https://github-readme-stats.vercel.app/api?username=HKTITAN&show_icons=true&theme=transparent&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HKTITAN&layout=compact&theme=transparent&hide_border=true)
+![Harshit's GitHub stats](https://github-readme-stats.vercel.app/api?username=HKTITAN&show_icons=true&hide_border=true&bg_color=00000000)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HKTITAN&layout=compact&hide_border=true&bg_color=00000000)
 
 ## 📬 Connect
 
