@@ -28,3 +28,48 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  update-contributions:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch last-7-days contributions
+        id: contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: ${{ github.repository_owner }}
+        run: |
+          COUNT=$(gh api graphql -f query="
+          {
+            user(login: \"$USER\") {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays { date contributionCount }
+                  }
+                }
+              }
+            }
+          }" --jq '
+            [.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[]]
+            | sort_by(.date) | .[-7:] | map(.contributionCount) | add
+          ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Update README heading
+        run: |
+          sed -i -E "s|^## 📈 [0-9]+ contributions this week|## 📈 ${{ steps.contrib.outputs.count }} contributions this week|" README.md
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Update weekly contribution count"
+            git push
+          fi
