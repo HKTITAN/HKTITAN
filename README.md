@@ -52,8 +52,7 @@ Product Design · AI/ML Workflows · Community Building · Go-to-Market · Found
 
 ## 📈 GitHub
 
-![Harshit's GitHub stats](https://github-readme-stats.vercel.app/api?username=HKTITAN&show_icons=true&hide_border=true&bg_color=00000000)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HKTITAN&layout=compact&hide_border=true&bg_color=00000000)
+![Snake animation](https://raw.githubusercontent.com/HKTITAN/HKTITAN/main/github-contribution-grid-snake-dark.svg)
 
 ## 📬 Connect
 
