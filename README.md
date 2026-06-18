@@ -50,7 +50,7 @@ A small constellation of tools I've built around [Poke](https://poke.com).
 
 Product Design · AI/ML Workflows · Community Building · Go-to-Market · Founder Operations
 
-## 📈 63 contributions this week
+## 📈 54 contributions this week
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HKTITAN/HKTITAN/output/github-contribution-grid-snake-dark.svg">
